@@ -16,3 +16,12 @@ days[3]="Thur"
 print(days)
 days=tuple(days)
 print(days)
+
+numbers = (1, 2, 3, 4, 5)
+x=numbers[-2]
+print(x)
+
+
+developer="jessica"
+x=tuple(developer)
+print(x)

@@ -15,7 +15,8 @@ print(numbers) # #append method
 numbers=[10, 20, 30, 40, 50]
 numbers=numbers.append(60)
 print(numbers)#[10, 20, 30, 40, 50, 60]
-
+#numbers=[10, 20, 30, 40, 50, 60]
+numbers[30]=35
 #replace 30 with 35
 numbers=[10, 20, 30, 40, 50, 60]
 numbers.pop(2)
@@ -62,7 +63,8 @@ print(names)#['Alice', 'Bob', 'Charlie', 'David']
 
 #sort
 names=['Alice', 'Bob', 'Charlie', 'David']
-names.sort()
+names.sort
+#.sort(true)
 print(names)#['Alice', 'Bob', 'Charlie', 'David']
 names=tuple(names)
 print(names)#('Alice', 'Bob', 'Charlie', 'David')
